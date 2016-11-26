@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProgettoFigo</name>
+    </assembly>
+    <members>
+        <member name="M:ProgettoFigo.Form1.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ProgettoFigo.Form1.Input_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Questa funzione permette di mostrare sull'interfaccia il codice scritto dall'utente sulla prima richtextbox.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ProgettoFigo.Form1.richTextBox1_TextChanged(System.Object,System.EventArgs)">
+            <summary>
+            Questa funzione permette di mostrare sull'interfaccia il codice scritto in css dall'utente sulla seconda richtextbox.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ProgettoFigo.Form1.button1_Click(System.Object,System.EventArgs)">
+            <summary>
+            Questa funzione permette di salvare il codice html su file in una repository scelta dall'utente.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ProgettoFigo.Form1.button2_Click(System.Object,System.EventArgs)">
+            <summary>
+            Questa funzione permette di salvare il codice css su file in una repository scelta dall'utente.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ProgettoFigo.Form1.button3_Click(System.Object,System.EventArgs)">
+            <summary>
+            Questa funzione permette di caricare il codice html su file in una repository scelta dall'utente.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ProgettoFigo.Form1.button4_Click(System.Object,System.EventArgs)">
+            <summary>
+            Questa funzione permette di caricare il codice css su file in una repository scelta dall'utente.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:ProgettoFigo.Form1.components">
+            <summary>
+            Variabile di progettazione necessaria.
+            </summary>
+        </member>
+        <member name="M:ProgettoFigo.Form1.Dispose(System.Boolean)">
+            <summary>
+            Liberare le risorse in uso.
+            </summary>
+            <param name="disposing">ha valore true se le risorse gestite devono essere eliminate, false in caso contrario.</param>
+        </member>
+        <member name="M:ProgettoFigo.Form1.InitializeComponent">
+            <summary>
+            Metodo necessario per il supporto della finestra di progettazione. Non modificare
+            il contenuto del metodo con l'editor di codice.
+            </summary>
+        </member>
+        <member name="M:ProgettoFigo.Program.Main">
+            <summary>
+            Punto di ingresso principale dell'applicazione.
+            </summary>
+        </member>
+        <member name="T:ProgettoFigo.Properties.Resources">
+            <summary>
+              Classe di risorse fortemente tipizzata per la ricerca di stringhe localizzate e così via.
+            </summary>
+        </member>
+        <member name="P:ProgettoFigo.Properties.Resources.ResourceManager">
+            <summary>
+              Restituisce l'istanza di ResourceManager nella cache utilizzata da questa classe.
+            </summary>
+        </member>
+        <member name="P:ProgettoFigo.Properties.Resources.Culture">
+            <summary>
+              Esegue l'override della proprietà CurrentUICulture del thread corrente per tutte
+              le ricerche di risorse che utilizzano questa classe di risorse fortemente tipizzata.
+            </summary>
+        </member>
+    </members>
+</doc>
